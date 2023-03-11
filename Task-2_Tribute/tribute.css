@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+body{
+    background-color: #EBECF0;
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, orange, white, green);
+    width: 70%;
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgb(37, 37, 37);
+}
+
+.img-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img,.president img {
+    width: 40%;
+    margin-top: 10px;
+}
+.img-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#caption {
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.para {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 13px;
+}
+
+.quotes{
+    margin-top: 12px;
+}
+
+.quotes p {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.list {
+    list-style: inside;
+}
+
+ul li {
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+#footer {
+    margin-top: 10px;
+    bottom: 0;
+}
